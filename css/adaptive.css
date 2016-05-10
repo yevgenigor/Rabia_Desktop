@@ -1,0 +1,34 @@
+@media all and (max-width: 980px) {
+    .left-bloc{
+        display: none;
+    }
+    .main-header{
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .nav-item{
+        display: inline-block;
+        padding: 5px 15px;
+    }
+    .wrapper{
+        padding-top: 45px;
+    }
+    .right-bloc{
+        width: 100%;
+    }
+    .right-bloc-section{
+        float: none;
+        margin: 0 auto;
+    }
+}
+@media all and (max-width: 740px) {
+    .nav-list{
+        display: none;
+    }
+    .right-bloc{
+        margin-top: 41px;
+    }
+    
+}
