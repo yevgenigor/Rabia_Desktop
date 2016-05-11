@@ -33,9 +33,6 @@ ul{
 }
 .nav-list{
     margin-top: 42px;
-
-
-
 }
 .nav-link{
     font-size: 1rem;
@@ -46,8 +43,6 @@ ul{
     padding: 5px 15px;
     position: relative;
     overflow: hidden;
-
-
 }
 .nav-link:before{
     content: "";
@@ -224,10 +219,12 @@ ul{
     align-items: center;
 }
 
-.social-icon:hover .social-icon-item:not(:hover){
+.social-icon:hover .social-icon-item-link:not(:hover){
     border: 2px solid #666;
 }
-
+.social-icon:hover .footer-icon:not(:hover){
+    color: #666;
+}
 .footer-icon{
     font-size: 1rem;
 }
